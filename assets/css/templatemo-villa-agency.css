@@ -84,13 +84,13 @@ html, body {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #1e1e1e;
+  color: #f35525;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 
@@ -411,15 +411,16 @@ Header Style
 
 .header-area .main-nav .logo h1 {
   line-height: 100px;
-  font-size: 28px;
+  font-size: 3vw;
   text-transform: uppercase;
   color: #1e1e1e;
   font-weight: 700;
   letter-spacing: 2px;
+  padding-top: ;
 }
 
 .background-header .main-nav .logo h1 {
-  line-height: 80px;
+  line-height: 1px;
 }
 
 .header-area .main-nav ul.nav {
@@ -449,8 +450,7 @@ Header Style
   display: block;
   padding-left: 20px;
   padding-right: 20px;
-  font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
   height: 40px;
   line-height: 40px;
   text-transform: capitalize;
@@ -461,6 +461,7 @@ Header Style
   transition: all 0.4s ease 0s;
   border: transparent;
   letter-spacing: .25px;
+  font-weight: bolder;
 }
 
 .header-area .main-nav .nav li:last-child a {
@@ -1347,10 +1348,11 @@ footer {
   background-color: #1e1e1e;
   min-height: 100px;
 }
-
+footer a{
+  color:#fff;
+}
 footer p {
   text-align: center;
-  line-height: 100px;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
